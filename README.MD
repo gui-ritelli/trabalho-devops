@@ -1,4 +1,6 @@
 # Trabalho de DevOps — GitHub Actions e CHANGELOG Automático
+ALUNOS: GUILHERME EDUARDO RITELLI DORTA (RA:250532)
+        LIVIA ROMANO DE OLIVEIRA (RA:250446)
 
 ## 1. Sobre o projeto
 
