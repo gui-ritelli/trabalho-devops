@@ -66,3 +66,22 @@ git clone https://github.com/gui-ritelli/trabalho-devops.git
 cd trabalho-devops
 ```
 
+
+
+EXPLICANDO BLOCOS DO CHANGELOG.md
+
+BLOCO 1: - name: Gerar CHANGELOG
+          run: |
+          echo "# Histórico de alterações" > CHANGELOG.md
+          echo "" >> CHANGELOG.md
+          git log -10 --pretty=format:"- %h - %s (%ad)" --date=short >> CHANGELOG.md
+
+BLOCO 2:       - name: Salvar CHANGELOG
+          run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHANGELOG.md
+          git commit -m "docs: atualizar changelog [skip ci]" || exit 0
+          git push
+EXPLICACÃO: RUN | - Indica que o GitHub Actions deve executar os comandos de terminal escritos nas linhas seguintes e o símbolo | permite colocar vários comandos em um único bloco. Depois é configurado o usuario e o email e essas configurações permitem que o Git crie um commit sem precisar perguntar quem é o autor.
+
