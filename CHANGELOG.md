@@ -1,5 +1,7 @@
 # Histórico de alterações
 
+- ab8c51e - Add automatic CHANGELOG generation step (2026-10-29)
+- 63a394a - docs: atualizar changelog [skip ci] (2026-10-29)
 - 0987a12 - Document CHANGELOG generation in README (2026-10-29)
 - 8b7b243 - docs: atualizar changelog [skip ci] (2026-10-22)
 - 9b170de - Update README with student information (2026-10-22)
@@ -8,4 +10,3 @@
 - 43ab1fa - docs: atualizar changelog [skip ci] (2026-10-20)
 - b67d6b0 - ci: adicionar action de changelog automatico (2026-10-20)
 - e47ac76 - feat: adicionar descricao do sistema (2026-10-20)
-- 0e30d71 - feat: criar estrutura inicial do projeto (2026-10-20)
