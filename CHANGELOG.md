@@ -1,5 +1,7 @@
 # Histórico de alterações
 
+- 0987a12 - Document CHANGELOG generation in README (2026-10-29)
+- 8b7b243 - docs: atualizar changelog [skip ci] (2026-10-22)
 - 9b170de - Update README with student information (2026-10-22)
 - 90436f8 - docs: atualizar changelog [skip ci] (2026-10-20)
 - 02f9962 - docs: adicionar README do projeto (2026-10-20)
