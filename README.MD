@@ -75,6 +75,8 @@ BLOCO 1: - name: Gerar CHANGELOG
           echo "# Histórico de alterações" > CHANGELOG.md
           echo "" >> CHANGELOG.md
           git log -10 --pretty=format:"- %h - %s (%ad)" --date=short >> CHANGELOG.md
+EXPLICAÇÃO: cria automaticamente o arquivo CHANGELOG.md, adiciona o título e registra os últimos 10 commits do Git, incluindo o identificador, a mensagem e a data de cada alteração. Ele gera um histórico das modificações do projeto automaticamente, evitando que seja necessário preencher o arquivo manualmente.
+
 
 BLOCO 2:       - name: Salvar CHANGELOG
           run: |
